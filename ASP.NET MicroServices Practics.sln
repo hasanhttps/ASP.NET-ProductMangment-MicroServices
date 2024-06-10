@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateWay", "ApiGateWay", "{E088737E-761E-4EA8-9A62-C2F0EC0D3E83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCommandMicroService", "ProductCommandMicroService", "{D59AF23A-579C-4699-8816-7975BF8C9403}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductQueryMicroService", "ProductQueryMicroService", "{AA5FFD17-6394-483F-9561-883F8AF68818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateWay", "ApiGateWay\ApiGateWay.csproj", "{EA6DDD16-52D9-4C08-89EF-3CDFC523F8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCommandMicroService", "ProductCommandMicroService\ProductCommandMicroService.csproj", "{8FAC7C9E-DBDB-436A-BAED-EB6468184FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductQueryMicroService", "ProductQueryMicroService\ProductQueryMicroService.csproj", "{B010A166-4DA6-4A98-839B-A7E0892F6ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA6DDD16-52D9-4C08-89EF-3CDFC523F8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6DDD16-52D9-4C08-89EF-3CDFC523F8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6DDD16-52D9-4C08-89EF-3CDFC523F8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6DDD16-52D9-4C08-89EF-3CDFC523F8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAC7C9E-DBDB-436A-BAED-EB6468184FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAC7C9E-DBDB-436A-BAED-EB6468184FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAC7C9E-DBDB-436A-BAED-EB6468184FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAC7C9E-DBDB-436A-BAED-EB6468184FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B010A166-4DA6-4A98-839B-A7E0892F6ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B010A166-4DA6-4A98-839B-A7E0892F6ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B010A166-4DA6-4A98-839B-A7E0892F6ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B010A166-4DA6-4A98-839B-A7E0892F6ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA6DDD16-52D9-4C08-89EF-3CDFC523F8FF} = {E088737E-761E-4EA8-9A62-C2F0EC0D3E83}
+		{8FAC7C9E-DBDB-436A-BAED-EB6468184FE1} = {D59AF23A-579C-4699-8816-7975BF8C9403}
+		{B010A166-4DA6-4A98-839B-A7E0892F6ECD} = {AA5FFD17-6394-483F-9561-883F8AF68818}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09AAE983-C4AF-4A4A-805B-5399DA8DBEA8}
+	EndGlobalSection
+EndGlobal
